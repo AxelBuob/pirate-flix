@@ -1,4 +1,5 @@
 # Fichiers de données générées
+.env
 downloads/
 movies/
 series/
