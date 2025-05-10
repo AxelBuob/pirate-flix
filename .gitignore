@@ -1,0 +1,13 @@
+# Fichiers de données générées
+downloads/
+movies/
+series/
+cache/
+appdata/*
+
+# Sauf les dossiers de base
+!appdata/
+
+# Sauf les fichiers de configuration
+!appdata/gluetun/strongvpn.ovpn
+!appdata/swag/nginx/site-confs/default.conf
