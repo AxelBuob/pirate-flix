@@ -2,15 +2,15 @@
 .env
 
 # Ignore the OpenVPN configuration
-appdata/gluetun/strongvpn.ovpn
+**/strongvpn.ovpn
 
-# Fichiers de données genéérés
-downloads/
-movies/
-series/
-cache/
-appdata/*
+# # Fichiers de données genéérés
+# downloads/
+# movies/
+# series/
+# cache/
+# appdata/*
 
 # Ignore the default nginx config but allow the template version
-appdata/swag/nginx/site-confs/default
+appdata/swag/nginx/site-confs/default.conf
 !appdata/swag/nginx/site-confs/default.template
