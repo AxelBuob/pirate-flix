@@ -29,7 +29,6 @@ PirateFlix/
 ├── appdata/
 │   ├── gluetun/
 │   │   ├── strongvpn.ovpn
-│   │   └── credentials.txt
 │   ├── swag/
 │   │   └── nginx/
 │   │       └── site-confs/
@@ -130,16 +129,4 @@ docker compose up -d
 
 A `.env.example` is provided for safe sharing of config templates. Never commit `.env` directly.
 
----
 
-## ✅ To Do
-
-- Add monitoring stack (Grafana, Prometheus)
-- Add automatic backups
-- Add user access control
-
----
-
-## 📜 License
-
-MIT
